@@ -33,9 +33,9 @@ const Login = () => {
 
   if (isAuth) {
     return (
-      <div>
-        <p>We are a user oriented website</p>
-        <p>Your token to Access the site is : {isToken} </p>
+      <div style={{ fontSize: "12px", color: "gray" }}>
+        <p> For any Query feel free to Mail Us on : contact@admin.mail.com </p>
+        <p> Customer Support is availabe 24×7</p>
       </div>
     );
   }
