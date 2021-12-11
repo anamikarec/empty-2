@@ -22,11 +22,13 @@ const Body = () => {
             color: currentTheme.color,
             backgroundColor: currentTheme.background,
             display: "flex",
-            border: "1px solid aqua"
+            border: "1px solid blue",
+            paddingBottom: "100px"
+            // paddingBottom: "200px";
           }}
         >
-          <div style={{ border: "1px solid aqua", fontSize: "30px" }}>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+          <div style={{ border: "1px solid blue", fontSize: "30px" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               <img
                 src="https://media.pitchfork.com/photos/5f3b196deb982d18c453e0f1/4:3/w_2704,h_2028,c_limit/barack-obama.jpg"
                 alt="img"
@@ -35,22 +37,22 @@ const Body = () => {
                 style={{ borderRadius: "50%" }}
               />
             </div>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               ▶︎
             </div>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               ☞
             </div>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               ⍾
             </div>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               🗯
             </div>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               📋
             </div>
-            <div style={{ padding: "20px", borderBottom: "1px solid aqua" }}>
+            <div style={{ padding: "20px", borderBottom: "1px solid blue" }}>
               📽
             </div>
           </div>
@@ -116,7 +118,7 @@ const Body = () => {
               </div>
             </div>
 
-            <div style={{ border: "1px solid aqua", marginLeft: "30px" }}>
+            <div style={{ border: "1px solid blue", marginLeft: "30px" }}>
               <div style={{ borderBottom: "1px solid gray" }}>
                 <div style={{ display: "flex" }}>
                   <div

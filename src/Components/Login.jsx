@@ -34,7 +34,7 @@ const Login = () => {
   if (isAuth) {
     return (
       <div style={{ fontSize: "12px", color: "gray" }}>
-        <p> For any Query feel free to Mail Us on : contact@admin.mail.com </p>
+        <p> For any Query feel free to Mail Us on : anamika@adminmail.com </p>
         <p> Customer Support is availabe 24×7</p>
       </div>
     );
